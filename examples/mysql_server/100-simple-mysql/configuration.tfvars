@@ -22,7 +22,7 @@ mysql_servers = {
     administrator_login           = "mysqlsalesadmin"
     keyvault_key                  = "mysql-re1"
     system_msi                    = true
-    public_network_access_enabled = false
+    public_network_access_enabled = true
     
     mysql_firewall_rules = {
       mysql-firewall-rules = {
