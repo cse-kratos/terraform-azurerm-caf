@@ -15,3 +15,6 @@ variable diagnostics {
   default = {}
 }
 variable base_tags {}
+variable value {
+  default = 600
+}
