@@ -45,7 +45,7 @@ mysql_servers = {
 
     mysql_database = {
       mysql_database = {
-        name                = "interactive_timeout"
+        name                = "mysql_server_sampledb"
         resource_group_name = "mysql_region1"
         server_name         = "sales-re1"
         charset             = "UTF8"
