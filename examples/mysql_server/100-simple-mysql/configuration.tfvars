@@ -38,7 +38,7 @@ mysql_servers = {
       mysql_configuration = {
         name = "mysql_server_configuration"
         resource_group_name = "mysql_region1"
-        server_name         = "sales-rg1"
+        server_name         = "sales-re1"
         value = "600"
       }
     }
@@ -47,7 +47,7 @@ mysql_servers = {
       mysql_database = {
         name = "mysql_server_sampledb"
         resource_group_name = "mysql_region1"
-        server_name         = "sales-rg1"
+        server_name         = "sales-re1"
         charset             = "UTF8"
         collation           = "utf8_unicode_ci"
       }
