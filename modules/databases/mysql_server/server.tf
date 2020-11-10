@@ -30,20 +30,6 @@ resource "azurerm_mysql_server" "mysql" {
     }
   }
 
-  dynamic "threat_detection_policy" {
-    for_each = lookup(var.settings, "threat_detection_policy", {}) == {} ? [] : [1]
-
-    content {
-      enabled                    = var.settings.threat_detection_policy.enabled
-      disabled_alerts            = var.settings.threat_detection_policy.disabled_alerts
-      email_account_admins       = var.settings.threat_detection_policy.email_account_admins
-      email_addresses            = var.settings.threat_detection_policy.email_addresses
-      retention_days             = var.settings.threat_detection_policy.retention_days
-      storage_account_access_key = data.azurerm_storage_account.mysql_va[0].primary_access_key
-      storage_endpoint           = data.azurerm_storage_account.mysql_va[0].primary_blob_endpoint
-    }
-  }
-
 }
 
 resource "azurecaf_name" "mysql" {
