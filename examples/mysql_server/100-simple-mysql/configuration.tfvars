@@ -34,7 +34,7 @@ mysql_servers = {
       }
     }
 
-     mysql_configuration = {
+    mysql_configuration = {
       mysql_configuration = {
         name = "mysql_server_configuration"
         resource_group_name = "mysql_region1"
@@ -49,7 +49,7 @@ mysql_servers = {
         resource_group_name = "mysql_region1"
         server_name         = "sales-rg1"
         charset             = "UTF8"
-        collation           = "English_United States.1252"
+        collation           = "utf8_unicode_ci"
       }
     }
     
