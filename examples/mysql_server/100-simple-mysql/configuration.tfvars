@@ -29,8 +29,8 @@ mysql_servers = {
         name = "mysql_server_firewallrule"
         resource_group_name = "mysql_region1"
         server_name         = "sales-rg1"
-        start_ip_address    = "40.112.8.12"
-        end_ip_address      = "40.112.8.12"
+        start_ip_address    = "52.163.80.201"
+        end_ip_address      = "52.163.80.201"
       }
     }
 
