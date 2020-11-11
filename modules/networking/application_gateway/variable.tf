@@ -40,14 +40,4 @@ variable sku_tier {
 variable base_tags {}
 variable private_dns {
   default = {}
-<<<<<<< HEAD
 }
-=======
-}
-variable keyvault_certificates {
-  default = {}
-}
-variable managed_identities {
-  default = {}
-}
->>>>>>> origin/0.4
