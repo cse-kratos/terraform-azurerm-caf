@@ -6,7 +6,11 @@ Microsoft [Cloud Adoption Framework for Azure](https://aka.ms/caf) provides you 
 
 ## Getting started
 
+<<<<<<< HEAD
 This module can be used to create resources directly or called from a landing zone.
+=======
+This module can be used to create resources directly or called from a landing zone. 
+>>>>>>> origin/0.4
 It can be invoked directly from the [Terraform registry](https://registry.terraform.io/modules/aztfmod/caf/azurerm/)
 
 ```terraform
@@ -31,7 +35,11 @@ If you want to test, develop this module for landing zones integration, please f
 1. Clone the Azure landing zones repo
 
 ```bash
+<<<<<<< HEAD
 git clone --branch 2010.0.0 https://github.com/Azure/caf-terraform-landingzones.git /tf/caf/public
+=======
+git clone --branch 2010.0.preview2 https://github.com/Azure/caf-terraform-landingzones.git /tf/caf/public
+>>>>>>> origin/0.4
 ```
 
 2. Log in the subscription with the rover

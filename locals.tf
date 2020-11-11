@@ -33,6 +33,10 @@ locals {
     storage_account_blobs = try(var.storage.storage_account_blobs, {})
   }
 
+  security = {
+    keyvault_certificates = try(var.security.keyvault_certificates, {})
+  }
+
   networking = {
     application_gateways                                    = try(var.networking.application_gateways, {})
     application_gateway_applications                        = try(var.networking.application_gateway_applications, {})

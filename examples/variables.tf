@@ -140,10 +140,13 @@ variable application_gateways {
 }
 variable application_gateway_applications {
   default = {}
+<<<<<<< HEAD
 }
 variable mysql_servers {
   default = {}
 }
 variable postgresql_servers {
   default = {}
+=======
+>>>>>>> origin/0.4
 }
