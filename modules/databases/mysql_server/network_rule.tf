@@ -13,7 +13,7 @@ resource "azurerm_subnet" "internal" {
   service_endpoints    = ["Microsoft.Sql"]
 }
 
-resource "azurerm_mysql_virtual_network_rule" "example" {
+resource "azurerm_mysql_virtual_network_rule" "mysql_network" {
   for_each = var.settings.mysql_network
   name                = each.value.name
   resource_group_name = var.resource_group_name
