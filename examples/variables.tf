@@ -299,3 +299,7 @@ variable azurerm_firewall_application_rule_collection_definition {
 variable azurerm_firewall_nat_rule_collection_definition {
   default = {}
 }
+
+variable azure_devops_projects {
+  default = {}
+}

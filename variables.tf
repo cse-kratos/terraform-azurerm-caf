@@ -245,3 +245,7 @@ variable local_network_gateways {
 variable automations {
   default = {}
 }
+
+variable azure_devops_projects {
+  default = {}
+}

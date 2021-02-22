@@ -21,6 +21,7 @@ module "caf" {
   role_mapping                 = var.role_mapping
   custom_role_definitions      = var.custom_role_definitions
   log_analytics                = var.log_analytics
+  azure_devops_projects        = var.azure_devops_projects
   event_hub_namespaces         = var.event_hub_namespaces
 
   webapp = {
