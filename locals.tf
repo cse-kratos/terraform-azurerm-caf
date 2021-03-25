@@ -196,6 +196,11 @@ locals {
 
   }
 
+  eventgrid = {
+    combined_arm_resources = merge(module.app_config, module.storage_accounts)
+    system_topic = try(var.eventgrid.system_topic, {})
+  }
+
   enable = {
     bastion_hosts    = try(var.enable.bastion_hosts, true)
     virtual_machines = try(var.enable.virtual_machines, true)
